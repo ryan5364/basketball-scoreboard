@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-TW" manifest="offline.appcache">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>籃球電子計分板 (舊設備相容版)</title>
+    <!-- 初代 iPad WebApp 全螢幕離線設定 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>籃球電子計分板 (初代iPad離線版)</title>
     <style>
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
         html, body { width: 100%; height: 100%; margin: 0; padding: 0; background-color: #111111; color: #ffffff; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; overflow: hidden; -webkit-user-select: none; user-select: none; }
